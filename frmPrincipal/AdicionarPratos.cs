@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace frmPrincipal
+namespace Foodball
 {
     public partial class AdicionarPratos : Form
     {
         public AdicionarPratos()
         {
             InitializeComponent();
+        }
+
+        private void AdicionarPratos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

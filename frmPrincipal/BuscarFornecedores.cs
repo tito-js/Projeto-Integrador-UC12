@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace frmPrincipal
+namespace Foodball
 {
     public partial class BuscarFornecedores : Form
     {
         public BuscarFornecedores()
         {
             InitializeComponent();
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

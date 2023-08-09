@@ -1,5 +1,5 @@
 ﻿
-namespace frmPrincipal
+namespace Foodball
 {
     partial class BuscarPratos
     {

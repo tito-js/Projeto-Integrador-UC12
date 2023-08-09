@@ -1,5 +1,5 @@
 ﻿
-namespace frmPrincipal
+namespace Foodball
 {
     partial class BuscarFuncionarios
     {
@@ -51,8 +51,9 @@ namespace frmPrincipal
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1225, 63);
+            this.panel1.Size = new System.Drawing.Size(919, 51);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -60,10 +61,9 @@ namespace frmPrincipal
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(441, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(331, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 31);
+            this.label1.Size = new System.Drawing.Size(235, 25);
             this.label1.TabIndex = 58;
             this.label1.Text = "Buscar Funcionarios:";
             // 
@@ -72,18 +72,17 @@ namespace frmPrincipal
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(80, 112);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(60, 91);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(386, 211);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(290, 171);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.guna2PictureBox2.TabIndex = 57;
             this.guna2PictureBox2.TabStop = false;
             // 
             // guna2Button3
             // 
-            this.guna2Button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.guna2Button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button3.Animated = true;
             this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
@@ -95,16 +94,17 @@ namespace frmPrincipal
             this.guna2Button3.FillColor = System.Drawing.Color.Red;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button3.Location = new System.Drawing.Point(343, 482);
+            this.guna2Button3.Location = new System.Drawing.Point(257, 392);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(151, 45);
+            this.guna2Button3.Size = new System.Drawing.Size(113, 37);
             this.guna2Button3.TabIndex = 56;
             this.guna2Button3.Text = "Deletar";
             // 
             // guna2Button2
             // 
-            this.guna2Button2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.guna2Button2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button2.Animated = true;
             this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
@@ -116,16 +116,17 @@ namespace frmPrincipal
             this.guna2Button2.FillColor = System.Drawing.Color.Blue;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button2.Location = new System.Drawing.Point(185, 482);
+            this.guna2Button2.Location = new System.Drawing.Point(139, 392);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(151, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(113, 37);
             this.guna2Button2.TabIndex = 55;
             this.guna2Button2.Text = "Atualizar";
             // 
             // guna2Button1
             // 
-            this.guna2Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.guna2Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button1.Animated = true;
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
@@ -137,9 +138,10 @@ namespace frmPrincipal
             this.guna2Button1.FillColor = System.Drawing.Color.Green;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button1.Location = new System.Drawing.Point(26, 482);
+            this.guna2Button1.Location = new System.Drawing.Point(20, 392);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(151, 45);
+            this.guna2Button1.Size = new System.Drawing.Size(113, 37);
             this.guna2Button1.TabIndex = 54;
             this.guna2Button1.Text = "Adicionar";
             // 
@@ -149,10 +151,9 @@ namespace frmPrincipal
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(5, 354);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(4, 288);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 31);
+            this.label2.Size = new System.Drawing.Size(155, 25);
             this.label2.TabIndex = 53;
             this.label2.Text = "Funcionarios:";
             // 
@@ -169,21 +170,22 @@ namespace frmPrincipal
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(199, 350);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2TextBox2.Location = new System.Drawing.Point(149, 284);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "Nome";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(299, 41);
+            this.guna2TextBox2.Size = new System.Drawing.Size(224, 33);
             this.guna2TextBox2.TabIndex = 52;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Location = new System.Drawing.Point(497, 69);
+            this.panel2.Location = new System.Drawing.Point(373, 56);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(716, 507);
+            this.panel2.Size = new System.Drawing.Size(537, 412);
             this.panel2.TabIndex = 51;
             // 
             // dataGridView1
@@ -191,18 +193,19 @@ namespace frmPrincipal
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(716, 507);
+            this.dataGridView1.Size = new System.Drawing.Size(537, 412);
             this.dataGridView1.TabIndex = 0;
             // 
             // BuscarFuncionarios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.ClientSize = new System.Drawing.Size(1225, 644);
+            this.ClientSize = new System.Drawing.Size(919, 523);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.guna2Button2);
@@ -211,8 +214,10 @@ namespace frmPrincipal
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "BuscarFuncionarios";
             this.Text = "BuscarFuncionarios";
+            this.Load += new System.EventHandler(this.BuscarFuncionarios_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();

@@ -1,5 +1,5 @@
 ﻿
-namespace frmPrincipal
+namespace Foodball
 {
     partial class AdicionarPratos
     {
@@ -286,6 +286,7 @@ namespace frmPrincipal
             this.Controls.Add(this.guna2Panel1);
             this.Name = "AdicionarPratos";
             this.Text = "AdicionarPratos";
+            this.Load += new System.EventHandler(this.AdicionarPratos_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

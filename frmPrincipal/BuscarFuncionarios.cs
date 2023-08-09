@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace frmPrincipal
+namespace Foodball
 {
     public partial class BuscarFuncionarios : Form
     {
         public BuscarFuncionarios()
         {
             InitializeComponent();
+        }
+
+        private void BuscarFuncionarios_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

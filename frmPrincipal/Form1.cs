@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace frmPrincipal
+namespace Foodball
 {
     public partial class frmprincipal : Form
     {
@@ -87,6 +87,11 @@ namespace frmPrincipal
         }
 
         private void frmprincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
 
         }

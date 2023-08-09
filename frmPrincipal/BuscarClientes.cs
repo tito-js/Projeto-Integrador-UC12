@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace frmPrincipal
+namespace Foodball
 {
     public partial class BuscarClientes : Form
     {
@@ -18,6 +18,11 @@ namespace frmPrincipal
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BuscarClientes_Load(object sender, EventArgs e)
         {
 
         }

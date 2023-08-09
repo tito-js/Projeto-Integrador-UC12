@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace frmPrincipal
+namespace Foodball
 {
     public partial class AdicionarFuncionarios : Form
     {
         public AdicionarFuncionarios()
         {
             InitializeComponent();
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

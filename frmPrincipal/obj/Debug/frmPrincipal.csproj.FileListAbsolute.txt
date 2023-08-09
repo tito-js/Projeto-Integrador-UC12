@@ -46,3 +46,23 @@ C:\Users\7\Desktop\pj\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.exe
 C:\Users\7\Desktop\pj\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.pdb
 C:\Users\7\Desktop\pj\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.BuscarFuncionarios.resources
 C:\Users\7\Desktop\pj\frmPrincipal\frmPrincipal\obj\Debug\frmPrincipal.BuscarPratos.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\bin\Debug\frmPrincipal.exe.config
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\bin\Debug\frmPrincipal.exe
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\bin\Debug\frmPrincipal.pdb
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\bin\Debug\Guna.UI2.dll
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\frmPrincipal.csproj.AssemblyReference.cache
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.AdicionarClientes.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.AdicionarFornecedor.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.AdicionarFuncionarios.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.AdicionarPratos.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.BuscarClientes.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.BuscarFornecedores.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.BuscarFuncionarios.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.BuscarPratos.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\Foodball.frmprincipal.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\frmPrincipal.Properties.Resources.resources
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\frmPrincipal.csproj.GenerateResource.cache
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\frmPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\frmPrincipal.csproj.CopyComplete
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\frmPrincipal.exe
+C:\Users\gabriel.rrocha2\source\repos\Projeto Integrador UC12\frmPrincipal\obj\Debug\frmPrincipal.pdb

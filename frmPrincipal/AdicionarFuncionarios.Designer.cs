@@ -290,6 +290,7 @@ namespace Foodball
             this.txtCargo.SelectedText = "";
             this.txtCargo.Size = new System.Drawing.Size(199, 25);
             this.txtCargo.TabIndex = 24;
+            this.txtCargo.TextChanged += new System.EventHandler(this.txtCargo_TextChanged);
             // 
             // guna2PictureBox2
             // 

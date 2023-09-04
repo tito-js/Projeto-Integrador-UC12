@@ -61,5 +61,10 @@ namespace Foodball
 
 
         }
+
+        private void txtCargo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

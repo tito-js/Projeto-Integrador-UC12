@@ -171,6 +171,7 @@ namespace Foodball
             this.txtID.Name = "txtID";
             this.txtID.PasswordChar = '\0';
             this.txtID.PlaceholderText = "ID";
+            this.txtID.ReadOnly = true;
             this.txtID.SelectedText = "";
             this.txtID.Size = new System.Drawing.Size(73, 33);
             this.txtID.TabIndex = 2;
@@ -517,7 +518,7 @@ namespace Foodball
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(113, 37);
             this.btnExcluir.TabIndex = 31;
-            this.btnExcluir.Text = "Deletar";
+            this.btnExcluir.Text = "Limpar";
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnBuscaCEP

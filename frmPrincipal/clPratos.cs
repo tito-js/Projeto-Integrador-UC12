@@ -8,13 +8,12 @@ using System.Windows.Forms;
 
 namespace Foodball
 {
-    public class clFuncionarios
+    class clPratos
     {
-        public int idFuncionario;
-        public string nome;
-        public string cpf;
-        public string telefone;
-        public string cargo;
+        public int id_AdicionarPratos;
+        public string Nome;
+        public string Preco;
+        public string Tipo;
 
         conectaBD BD = new conectaBD();
 
@@ -23,18 +22,18 @@ namespace Foodball
             int id = 0;
             try
             {
-                BD._sql = String.Format(new CultureInfo("en-US"), "INSERT INTO FUNCIONARIO ( NOME,CPF,TELEFONE,CARGO )" + "values ('{0}','{1}','{2}','{3}')", nome, cpf, telefone, cargo) + "SELECT SCOPE_IDENTITY();";
+                BD._sql = String.Format(new CultureInfo("en-US"), "INSERT INTO ADICIONAR_PRATOS ( NOME,PRECO,TIPO )" + "values ('{0}','{1}','{2}')", Nome, Preco, Tipo ) + "SELECT SCOPE_IDENTITY();";
 
                 BD.ExecutaComando(false, out id);
 
                 if (id > 0)
                 {
-                    MessageBox.Show("Funcionario cadastrado com sucesso!", "Cadastro com sucesso",
+                    MessageBox.Show("Prato cadastrado com sucesso!", "Cadastro com sucesso",
                                      MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Erro ao cadastrar Funcionario", "Erro", MessageBoxButtons.OK,
+                    MessageBox.Show("Erro ao cadastrar Prato", "Erro", MessageBoxButtons.OK,
                                      MessageBoxIcon.Error);
                 }
             }
@@ -46,13 +45,14 @@ namespace Foodball
 
             return id;
         }
+
         public void Excluir()
         {
             try
             {
                 int exOK = 0;
 
-                BD._sql = "DELETE FROM FUNCIONARIO WHERE IdFuncionario = " + idFuncionario;
+                BD._sql = "DELETE FROM ADICIONAR_PRATOS WHERE Id_AdicionarPratos = " + id_AdicionarPratos;
 
                 exOK = BD.ExecutaComando(false);
 
@@ -70,23 +70,24 @@ namespace Foodball
                 MessageBox.Show("Erro.: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         public void Atualizar()
         {
             try
             {
                 int exOK = 0;
 
-                BD._sql = "UPDATE FUNCIONARIO SET NOME = '" + nome + "', CPF = '" + cpf + "', TELEFONE = '" + telefone + "', CARGO'" + cargo + "' where IdFuncionario = " + idFuncionario;
+                BD._sql = "UPDATE ADICIONAR_PRATOS SET NOME = '" + Nome + "', PRECO = '" + Preco + "', TIPO = '" + Tipo + "' where Id_AdcionarPratos = " + id_AdicionarPratos;
 
                 exOK = BD.ExecutaComando(false);
 
                 if (exOK == 1)
                 {
-                    MessageBox.Show("Funcionario Alterado com sucesso!", "Salvo com sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Prato Alterado com sucesso!", "Salvo com sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Erro ao alterar Funcionario, contate o desenvolvedor!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Erro ao alterar Prato, contate o desenvolvedor!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
             }

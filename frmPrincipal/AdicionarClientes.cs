@@ -47,7 +47,15 @@ namespace Foodball
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            txtNome.Text = "";
+            txtCpf.Text = "";
+            txtCEP.Text = "";
+            txtComplemento.Text = "";
+            txtBairro.Text = "";
+            txtEndereco.Text = "";
+            txtTelefone.Text = "";
+            txtCidade.Text = "";
+            txtUF.Text = "";
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)

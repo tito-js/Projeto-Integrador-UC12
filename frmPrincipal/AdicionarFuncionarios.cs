@@ -66,5 +66,13 @@ namespace Foodball
         {
 
         }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            txtNome.Text = "";
+            txtCPF.Text = "";
+            txtCargo.Text = "";
+            txtTelefone.Text = "";
+        }
     }
 }

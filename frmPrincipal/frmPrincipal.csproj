@@ -103,6 +103,7 @@
     <Compile Include="clAdicionaPratos.cs" />
     <Compile Include="clCliente.cs" />
     <Compile Include="clFuncionarios.cs" />
+    <Compile Include="clPratos.cs" />
     <Compile Include="conectaBD.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

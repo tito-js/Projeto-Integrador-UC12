@@ -458,6 +458,7 @@ namespace Foodball
             this.txtID.Name = "txtID";
             this.txtID.PasswordChar = '\0';
             this.txtID.PlaceholderText = "ID";
+            this.txtID.ReadOnly = true;
             this.txtID.SelectedText = "";
             this.txtID.Size = new System.Drawing.Size(61, 33);
             this.txtID.TabIndex = 22;
@@ -494,6 +495,7 @@ namespace Foodball
             this.btnBuscaCEP.Size = new System.Drawing.Size(151, 37);
             this.btnBuscaCEP.TabIndex = 45;
             this.btnBuscaCEP.Text = "Buscar CEP";
+            this.btnBuscaCEP.Click += new System.EventHandler(this.btnBuscaCEP_Click);
             // 
             // btnExcluir
             // 
@@ -515,7 +517,8 @@ namespace Foodball
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(113, 37);
             this.btnExcluir.TabIndex = 44;
-            this.btnExcluir.Text = "Deletar";
+            this.btnExcluir.Text = "Limpar";
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnSalvar
             // 
@@ -538,6 +541,7 @@ namespace Foodball
             this.btnSalvar.Size = new System.Drawing.Size(124, 37);
             this.btnSalvar.TabIndex = 43;
             this.btnSalvar.Text = "Adicionar";
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // AdicionarFornecedor
             // 

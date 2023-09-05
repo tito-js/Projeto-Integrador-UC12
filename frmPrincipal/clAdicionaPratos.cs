@@ -57,7 +57,7 @@ namespace Foodball
             {
                 int exOK = 0;
 
-                BD._sql = "DELETE FROM PRODUTO WHERE ID_PRODUTO = " + id_AdicionarPratos;
+                BD._sql = "DELETE FROM ADICIONAR_PRATOS WHERE ID_AdicionarPratos = " + id_AdicionarPratos;
 
                 exOK = BD.ExecutaComando(false);
 
@@ -82,7 +82,7 @@ namespace Foodball
             {
                 int exOK = 0;
 
-                BD._sql = "UPDATE CLIENTE SET Nome = '" + nome + "', Preco = '" + preco + "', Tipo = '" + tipo + "' where id_AdicionarPratos = " + id_AdicionarPratos;
+                BD._sql = "UPDATE ADICIONAR_PRATOS SET Nome = '" + nome + "', Preco = '" + preco + "', Tipo = '" + tipo + "' where id_AdicionarPratos = " + id_AdicionarPratos;
 
                 exOK = BD.ExecutaComando(false);
 
@@ -90,11 +90,11 @@ namespace Foodball
 
                 if (exOK == 1)
                 {
-                    MessageBox.Show("Produto Alterado com sucesso!", "Salvo com sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Prato Alterado com sucesso!", "Salvo com sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Erro ao alterar Produto, contate o desenvolvedor!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Erro ao alterar Prato, contate o desenvolvedor!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
             }
@@ -108,7 +108,7 @@ namespace Foodball
         {
             try
             {
-                BD._sql = "SELECT * FROM Buscar_Pratos " +
+                BD._sql = "SELECT * FROM ADICIONAR_PRATOS " +
                         " WHERE NOME LIKE '%" + nome + "%' ";
 
                 return BD.ExecutaSelect();

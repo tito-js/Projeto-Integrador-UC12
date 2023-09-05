@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -52,7 +53,7 @@ namespace Foodball
             {
                 int exOK = 0;
 
-                BD._sql = "DELETE FROM FUNCIONARIO WHERE IdFuncionario = " + idFuncionario;
+                BD._sql = "DELETE FROM FUNCIONARIO WHERE IDFUNCIONARIO = " + idFuncionario;
 
                 exOK = BD.ExecutaComando(false);
 
@@ -95,6 +96,21 @@ namespace Foodball
                 MessageBox.Show("Erro.: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+        }
+        public DataTable PesquisaPorNome()
+        {
+            try
+            {
+                BD._sql = "SELECT * FROM FUNCIONARIO " +
+                         " WHERE NOME LIKE '%" + nome + "%' ";
+
+                return BD.ExecutaSelect();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro.: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
         }
     }
 }

@@ -19,24 +19,24 @@ namespace Foodball
 
         private void AdicionarPratos_Load(object sender, EventArgs e)
         {
-            if (pratos != null)
+            if (Pratos != null)
             {
-                txtID.Text = pratos.id_AdicionarPratos.ToString();
-                txtNome.Text = pratos.Nome;
-                txtTipo.Text = pratos.Tipo;
-                txtPreco.Text = pratos.Preco;
+                txtID.Text = Pratos.id_AdicionarPratos.ToString();
+                txtNome.Text = Pratos.nome;
+                txtTipo.Text = Pratos.tipo;
+                txtPreco.Text = Pratos.preco;
                 btnSalvar.Text = "Atualizar";
             }
         }
 
-        clPratos pratos;
+        clAdicionaPratos Pratos;
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            clPratos pratos = new clPratos();
-            pratos.Nome = txtNome.Text;
-            pratos.Preco= txtPreco.Text;
-            pratos.Tipo = txtTipo.Text;
+            clAdicionaPratos pratos = new clAdicionaPratos();
+            pratos.nome = txtNome.Text;
+            pratos.preco= txtPreco.Text;
+            pratos.tipo = txtTipo.Text;
 
             if (txtID.Text == "")
             {

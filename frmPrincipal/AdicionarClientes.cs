@@ -111,27 +111,27 @@ namespace Foodball
 
                         // CEP
                         string[] valor = substrings[1].Split(':');
-                        txtCEP.Text = valor[1].ToString();
+                        txtCEP.Text = valor[1].ToString().Trim();
 
-                        // Endereço
+                        // Logradouro
                         string[] valor1 = substrings[2].Split(':');
-                        txtEndereco.Text = valor1[1].ToString();
+                        txtEndereco.Text = valor1[1].ToString().Trim();
 
                         // Bairro
                         string[] valor2 = substrings[4].Split(':');
-                        txtBairro.Text = valor2[1].ToString();
+                        txtBairro.Text = valor2[1].ToString().Trim();
 
                         // Cidade
                         string[] valor3 = substrings[5].Split(':');
-                        txtCidade.Text = valor3[1].ToString();
+                        txtCidade.Text = valor3[1].ToString().Trim();
 
                         // UF
                         string[] valor4 = substrings[6].Split(':');
-                        txtUF.Text = valor4[1].ToString();
+                        txtUF.Text = valor4[1].ToString().Trim();
 
                         // Complemento
                         string[] valor5 = substrings[3].Split(':');
-                        txtComplemento.Text = valor5[1].ToString();
+                        txtComplemento.Text = valor5[1].ToString().Trim();
                     }
                 }
             }

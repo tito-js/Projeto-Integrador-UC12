@@ -100,11 +100,11 @@ namespace Foodball
             this.btnbuscafornecedor.Image = ((System.Drawing.Image)(resources.GetObject("btnbuscafornecedor.Image")));
             this.btnbuscafornecedor.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnbuscafornecedor.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnbuscafornecedor.Location = new System.Drawing.Point(6, 632);
+            this.btnbuscafornecedor.Location = new System.Drawing.Point(16, 572);
             this.btnbuscafornecedor.Name = "btnbuscafornecedor";
             this.btnbuscafornecedor.Size = new System.Drawing.Size(208, 50);
             this.btnbuscafornecedor.TabIndex = 11;
-            this.btnbuscafornecedor.Text = "Buscar Fornedor";
+            this.btnbuscafornecedor.Text = "Buscar Fornecedor";
             this.btnbuscafornecedor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnbuscafornecedor.Click += new System.EventHandler(this.btnbuscafornecedor_Click);
             // 
@@ -129,7 +129,7 @@ namespace Foodball
             this.btnbuscapratos.Image = ((System.Drawing.Image)(resources.GetObject("btnbuscapratos.Image")));
             this.btnbuscapratos.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnbuscapratos.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnbuscapratos.Location = new System.Drawing.Point(12, 564);
+            this.btnbuscapratos.Location = new System.Drawing.Point(16, 516);
             this.btnbuscapratos.Name = "btnbuscapratos";
             this.btnbuscapratos.Size = new System.Drawing.Size(208, 50);
             this.btnbuscapratos.TabIndex = 10;
@@ -157,7 +157,7 @@ namespace Foodball
             this.btnbuscaclientes.Image = ((System.Drawing.Image)(resources.GetObject("btnbuscaclientes.Image")));
             this.btnbuscaclientes.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnbuscaclientes.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnbuscaclientes.Location = new System.Drawing.Point(12, 490);
+            this.btnbuscaclientes.Location = new System.Drawing.Point(16, 460);
             this.btnbuscaclientes.Name = "btnbuscaclientes";
             this.btnbuscaclientes.Size = new System.Drawing.Size(222, 50);
             this.btnbuscaclientes.TabIndex = 9;
@@ -185,7 +185,7 @@ namespace Foodball
             this.btnbuscafuncionarios.Image = ((System.Drawing.Image)(resources.GetObject("btnbuscafuncionarios.Image")));
             this.btnbuscafuncionarios.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnbuscafuncionarios.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnbuscafuncionarios.Location = new System.Drawing.Point(7, 424);
+            this.btnbuscafuncionarios.Location = new System.Drawing.Point(12, 404);
             this.btnbuscafuncionarios.Name = "btnbuscafuncionarios";
             this.btnbuscafuncionarios.Size = new System.Drawing.Size(228, 50);
             this.btnbuscafuncionarios.TabIndex = 8;
@@ -214,11 +214,11 @@ namespace Foodball
             this.btnfornecedor.Image = ((System.Drawing.Image)(resources.GetObject("btnfornecedor.Image")));
             this.btnfornecedor.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnfornecedor.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnfornecedor.Location = new System.Drawing.Point(12, 323);
+            this.btnfornecedor.Location = new System.Drawing.Point(12, 281);
             this.btnfornecedor.Name = "btnfornecedor";
             this.btnfornecedor.Size = new System.Drawing.Size(216, 50);
             this.btnfornecedor.TabIndex = 7;
-            this.btnfornecedor.Text = "Adicionar Fornedor";
+            this.btnfornecedor.Text = "Adicionar Fornecedor";
             this.btnfornecedor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnfornecedor.Click += new System.EventHandler(this.btnfornecedor_Click);
             // 
@@ -227,7 +227,7 @@ namespace Foodball
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(3, 388);
+            this.label1.Location = new System.Drawing.Point(12, 367);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 20);
             this.label1.TabIndex = 6;
@@ -254,7 +254,7 @@ namespace Foodball
             this.btnprato.Image = ((System.Drawing.Image)(resources.GetObject("btnprato.Image")));
             this.btnprato.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnprato.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnprato.Location = new System.Drawing.Point(12, 254);
+            this.btnprato.Location = new System.Drawing.Point(12, 225);
             this.btnprato.Name = "btnprato";
             this.btnprato.Size = new System.Drawing.Size(216, 50);
             this.btnprato.TabIndex = 5;
@@ -282,7 +282,7 @@ namespace Foodball
             this.btncliente.Image = ((System.Drawing.Image)(resources.GetObject("btncliente.Image")));
             this.btncliente.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btncliente.ImageSize = new System.Drawing.Size(35, 35);
-            this.btncliente.Location = new System.Drawing.Point(12, 182);
+            this.btncliente.Location = new System.Drawing.Point(12, 169);
             this.btncliente.Name = "btncliente";
             this.btncliente.Size = new System.Drawing.Size(230, 50);
             this.btncliente.TabIndex = 4;
@@ -310,7 +310,7 @@ namespace Foodball
             this.btnfuncionarios.Image = ((System.Drawing.Image)(resources.GetObject("btnfuncionarios.Image")));
             this.btnfuncionarios.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnfuncionarios.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnfuncionarios.Location = new System.Drawing.Point(6, 112);
+            this.btnfuncionarios.Location = new System.Drawing.Point(12, 113);
             this.btnfuncionarios.Name = "btnfuncionarios";
             this.btnfuncionarios.Size = new System.Drawing.Size(236, 50);
             this.btnfuncionarios.TabIndex = 3;
@@ -458,7 +458,7 @@ namespace Foodball
             this.ClientSize = new System.Drawing.Size(1148, 712);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmprincipal";
             this.Text = "frmprincipal";
             this.Load += new System.EventHandler(this.frmprincipal_Load);
